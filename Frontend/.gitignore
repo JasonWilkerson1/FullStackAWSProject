@@ -1,0 +1,51 @@
+# Terraform files
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+.terraform.lock.hcl
+.terraform/*
+terraform-provider-*
+
+# Node.js (backend and frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+.env
+.env.local
+.env.*.local
+.aws/
+credentials
+config
+logs/
+*.log
+*.log.*
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+
+# Elastic Beanstalk
+.elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
+
+# React frontend build
+build/
+dist/
+/coverage
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+.pnp
+.pnp.js
