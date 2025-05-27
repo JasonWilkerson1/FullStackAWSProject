@@ -1,0 +1,38 @@
+# Terraform files
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+.terraform.lock.hcl
+.terraform/*
+
+# Node.js backend
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.env
+.env.local
+.env.*.local
+.aws/
+credentials
+config
+logs/
+*.log
+*.log.*
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+.elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
